@@ -39,7 +39,7 @@ Pull an image or a repository from a registry
 ```
 docker pull hello-world
 ```
-![Docker Architecture](/img/docker_pull.png)
+![Docker Pull](/img/docker_pull.png)
 
 ---
 
@@ -47,9 +47,30 @@ docker pull hello-world
 <h3 style="color: #e7ad52;">Docker Images</h3>
 List Images
 ```
-docker pull hello-world
+docker images hello-world
 ```
-![Docker Architecture](/img/docker_pull.png)
+![Docker Images](/img/docker_images.png)
 
 ---
 
+<!-- Slide 8 -->
+<h3 style="color: #e7ad52;">Docker Run</h3>
+Run a command in a new container
+```
+docker run hello-world
+```
+![Docker Run](/img/docker_run.png)
+
+---
+
+<!-- Slide 9 -->
+<h3 style="color: #e7ad52;">Docker ps</h3>
+Lists the currently running containers
+```
+docker ps
+```
+![Docker ps](/img/docker_ps.png)
+
+---
+<!-- Slide 10 -->
+<h3 style="color: #e7ad52;">Thank you</h3>
